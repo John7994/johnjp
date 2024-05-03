@@ -116,7 +116,7 @@ instance_type = "t3.micro"
 subnet_id     = aws_subnet.lokesh-sub2.id
 count         = 2
 tags  = {
-Name  = "patnam"
+Name  = "server-terraform"
 }
 }
 
