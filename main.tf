@@ -101,7 +101,7 @@ Name = "sg-1"
 
 
 resource "aws_instance" "instance" {
-ami           = "ami-0684f3b195c7387ad"
+ami           = "ami-03c3351e3ce9d04eb"
 instance_type = "t3.micro"
 subnet_id     = aws_subnet.lokesh-sub1.id
 count         = 2
@@ -111,7 +111,7 @@ Name  = "Lokesh"
 }
 
 resource "aws_instance" "instance1" {
-ami           = "ami-0684f3b195c7387ad"
+ami           = "ami-03c3351e3ce9d04eb"
 instance_type = "t3.micro"
 subnet_id     = aws_subnet.lokesh-sub2.id
 count         = 2
